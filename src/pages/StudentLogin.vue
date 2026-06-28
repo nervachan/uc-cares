@@ -3,12 +3,12 @@ import { User } from '@lucide/vue'
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 
-
+const router = useRouter()
 const ucId = ref('')
 const password = ref('')
 
 const handleLogin = () => {
-  console.log('Logging in with:', ucId.value, password.value)
+  router.push('/StudentDashboard')
 }
 </script>
 

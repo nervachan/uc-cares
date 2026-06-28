@@ -107,10 +107,8 @@ const handleSubmit = async () => {
         </div>
         <p class="text-emerald-100 text-sm font-light">Kindly fill out the report form.</p>
         
-        <!-- Job Order Number -->
-        <div class="mt-4">
-          <h2 class="text-white text-xl font-bold tracking-wide">JOB ORDER #00001</h2>
-        </div>
+        
+        
       </div>
 
       <!-- ==================== FORM SECTION ==================== -->
@@ -153,7 +151,7 @@ const handleSubmit = async () => {
           <input 
             v-model="formData.location"
             type="text" 
-            placeholder="e.g. Room 204, 2nd Floor"
+            placeholder="e.g. S213, M401"
             class="w-full px-4 py-3 rounded-md border-0 text-gray-800 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-white/50 shadow-sm"
           />
         </div>

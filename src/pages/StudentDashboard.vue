@@ -6,12 +6,12 @@ const router = useRouter()
 
 // Navigation function placeholders
 const goToQuickReport = () => {
-  // router.push('/quick-report')
+  router.push('/quickreport')
   console.log('Navigating to Quick Report...')
 }
 
 const goToTrackReport = () => {
-  // router.push('/track-report')
+  router.push('/trackreport')
   console.log('Navigating to Track Report...')
 }
 </script>
