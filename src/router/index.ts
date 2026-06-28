@@ -5,6 +5,7 @@ import StudentDashboard from '../pages/StudentDashboard.vue';
 import QuickReport from '../pages/QuickReport.vue';
 import ThankYou from '../pages/ThankYou.vue';
 import TrackReport from '../pages/TrackReport.vue';
+import StaffLogin from '../pages/StaffLogin.vue';
 
 const router = createRouter({
   history: createWebHistory(),
@@ -15,6 +16,7 @@ const router = createRouter({
     { path: '/quickreport', component: QuickReport },
     { path: '/thankyou', component: ThankYou },
     { path: '/trackreport', component: TrackReport },
+    { path: '/stafflogin', component: StaffLogin }
   ],
 });
 

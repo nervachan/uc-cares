@@ -13,7 +13,7 @@ const goToStudentLogin = () => {
 
 // Function to navigate to the Staff Login page (optional for now)
 const goToStaffLogin = () => {
-  router.push('/staff-login') // Replace with your actual staff login route
+  router.push('/stafflogin') // Replace with your actual staff login route
 }
 </script>
 
